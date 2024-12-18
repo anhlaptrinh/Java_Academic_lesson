@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: jpa
+  datasource:
+    url: jdbc:mysql://localhost:3308/demojpa
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: none
+  cybersolf:
+    username: admin
+    password: 123456
+
